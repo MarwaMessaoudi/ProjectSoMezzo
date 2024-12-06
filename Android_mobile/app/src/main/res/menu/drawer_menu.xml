@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_group">
+        <!-- Existing items -->
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Edit My Account"
+            android:icon="@drawable/edit" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout" />
+
+        <!-- Manager-specific items -->
+        <item
+            android:id="@+id/nav_add_account"
+            android:title="Add Account"
+            android:icon="@drawable/add"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_account_list"
+            android:title="Account List"
+            android:icon="@drawable/accounts"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_account_validation"
+            android:title="Account Validation"
+            android:icon="@drawable/account_validation"
+            android:visible="false" />
+
+        <!-- Employee-specific item -->
+        <item
+            android:id="@+id/nav_my_calls"
+            android:title="My Calls"
+            android:icon="@drawable/calls"
+            android:visible="false" />
+    </group>
+</menu>
